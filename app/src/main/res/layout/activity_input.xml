@@ -76,13 +76,13 @@
         app:layout_constraintTop_toTopOf="@id/bloodTypeTextView">
 
         <RadioButton
-            android:id="@+id/RhPlusRadioButton"
+            android:id="@+id/bloodTypePlusRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rh+" />
 
         <RadioButton
-            android:id="@+id/RhMinusRadioButton"
+            android:id="@+id/bloodTypeMinusRadioButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Rh-" />
@@ -130,7 +130,7 @@
 
     <EditText
         android:id="@+id/warningEditTextView"
-        style="@style/Value"
+        style="@style/Input"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="주의사항"
@@ -156,14 +156,14 @@
         app:layout_constraintGuide_percent="0.45" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/goInputActivityButton"
+        android:id="@+id/saveButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="36dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/baseline_edit_24" />
+        app:srcCompat="@drawable/baseline_save_as_24" />
 
     <androidx.constraintlayout.helper.widget.Layer
         android:id="@+id/birthdateLayer"
